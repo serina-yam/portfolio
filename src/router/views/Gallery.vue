@@ -8,8 +8,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  h1 {
+    margin-top: 200px;
+  }
 </style>
 
 
