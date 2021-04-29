@@ -1,13 +1,12 @@
 <template>
   <div id="app">
     <myheader></myheader>
-    <router-view/>
-    <button class="btn btn-primary">test</button>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import myheader from './router/views/myheader.vue'
+import myheader from './components/myheader.vue'
 
 export default {
   name: 'App',
@@ -17,6 +16,11 @@ export default {
 }
 </script>
 
-<style>
+
+<style scoped >
+  #app {
+    text-align: center;
+  }
 
 </style>
+
