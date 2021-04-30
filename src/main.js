@@ -1,19 +1,15 @@
 import Vue from 'vue'
 import App from './App.vue'
-
-// vue.js
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-Vue.use(BootstrapVue)
-Vue.config.productionTip = false
-
 import router from './router'
+import vuetify from './plugins/vuetify'
 Vue.use(router)
 
+Vue.config.productionTip = true; // 開発中は true にしたほうがいいかも
+// true の場合の方が開発者向けのメッセージがコンソールによりたくさん出るようです。
 
 new Vue({
   el: '#app',
   router,
+  vuetify,
   render: h => h(App)
 })

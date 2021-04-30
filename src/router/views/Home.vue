@@ -6,7 +6,7 @@
         <h2>back-end engineer</h2>
       </div>
       <a href="" class="btn">CHECK MY WORK</a>
-      <a>
+      <a id="tap">
         <img src="../../assets/tap.png">
       </a>
     </div>
@@ -51,6 +51,10 @@
     padding: 1rem 1.5rem;
   }
 
+  #tap {
+    margin: 1rem auto 0 auto;
+  }
+
   .btn {
     border: 2px solid #fff;
     border-radius: 4;
@@ -60,7 +64,8 @@
 }
 
   .btn:hover {
-  background: #fff;
+  color: rgba(233, 95, 95, 1);
+  background:rgba(255,255,255,0.8);
 }
 
 a img {
