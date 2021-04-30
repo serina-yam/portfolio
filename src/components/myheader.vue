@@ -1,8 +1,10 @@
 <template>
 <!-- class名は、全て仮  -->
-  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <nav class="navbar">
     <div class="">
-      <router-link to="/" class="" exact-active-class="active">Home</router-link>
+      <router-link to="/" class="" exact-active-class="active">
+        Home
+      </router-link>
     </div>
     <div>
       <ul>
@@ -28,11 +30,13 @@
   }
 
   li {
-   margin: 0 0 0 15px;
-   font-size: 14px;
+   margin: 0 0 0 1.5rem;
   }
 
   .navbar {
-    height: 70px;
+    height: 5.0rem;
+    font-size: 1.4rem;
+    /* background-color: #fff; */
   }
+
 </style>

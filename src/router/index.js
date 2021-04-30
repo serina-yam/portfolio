@@ -42,6 +42,6 @@ export default new Router({
       path: '/Contact',
       name: 'Contact',
       component: Contact
-    },
+    }
   ]
 })

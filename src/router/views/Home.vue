@@ -1,9 +1,69 @@
 <template>
-  <h1>Home</h1>
+  <div class="full">
+    <div class="wrap">
+      <div class="title">
+        <h1>SERINA YAMAMOTO</h1>
+        <h2>back-end engineer</h2>
+      </div>
+      <a href="" class="btn">CHECK MY WORK</a>
+      <a>
+        <img src="../../assets/tap.png">
+      </a>
+    </div>
+  </div>
 </template>
 
 <style scoped>
-  h1 {
-    margin-top: 200px;
+  .full {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
   }
+
+  .wrap {
+    display:flex;
+    flex-flow: column;
+    margin: 0;
+    position: absolute;
+    top: calc(35% - 0.5em);
+    width: 100%;
+  }
+
+  .title {
+    color: #fff;
+  }
+
+  h1 {
+    text-align: center;
+    letter-spacing: 1.0rem;
+    font-size: 4.0rem;
+  }
+
+  h2 {
+    font-size: 2.0rem;
+  }
+
+  a {
+    color: #E95F5F;
+    padding: 1rem 1.5rem;
+  }
+
+  .btn {
+    border: 2px solid #fff;
+    border-radius: 4;
+    width: 20%;
+    margin: 3rem auto 0 auto;
+    padding: 1rem 0;
+}
+
+  .btn:hover {
+  background: #fff;
+}
+
+a img {
+  height: 5rem;
+}
 </style>
