@@ -19,9 +19,7 @@ export default {
 
 <style scoped >
 @import "./css/Reset.css";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
   #app {
-    text-align: center;
     font-family: "Noto Sans JP";
     font-size: 62.5%;
   }

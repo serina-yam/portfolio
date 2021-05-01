@@ -40,10 +40,12 @@
     text-align: center;
     letter-spacing: 1.0rem;
     font-size: 4.0rem;
+    font-weight: 700;
   }
 
   h2 {
-    font-size: 2.0rem;
+    text-align: center;
+    margin: 1rem auto 0 auto;
   }
 
   a {

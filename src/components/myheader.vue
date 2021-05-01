@@ -1,13 +1,12 @@
 <template>
-  <v-app-bar
-    flat
-  >
-    <div class="home">
-      <router-link to="/" class="" exact-active-class="active">
-        Home
+<!-- class名は、全て仮  -->
+  <nav class="navbar">
+    <div class="">
+      <router-link to="/" exact-active-class="active">
+    <img src="../assets/home.png" width="50" height="50" class="home">
       </router-link>
     </div>
-    <div class="contents">
+    <div>
       <ul>
         <li><router-link to="/Skills" class="" exact-active-class="active">Skills</router-link></li>
         <li><router-link to="/Career" class="" exact-active-class="active">Career</router-link></li>
@@ -15,7 +14,7 @@
         <li><router-link to="/Contact" class="" exact-active-class="active">Contact</router-link></li>
       </ul>
     </div>
-  </v-app-bar>
+  </nav>
 </template>
 
 <style scoped>
@@ -37,15 +36,10 @@
   .navbar {
     height: 5.0rem;
     font-size: 1.4rem;
-    /* background-color: #fff; */
   }
 
   .home {
-    text-align: left;
-  }
-
-  .contents {
-  text-align: right;
+    padding: 0.1rem;
   }
 
 </style>
