@@ -1,7 +1,7 @@
 <template>
   <div>
+    <h1>Skills</h1>
     <div class="graph-cont">
-      <h1>Skills</h1>
       <div class="container">
         <div class="content-left">
           <h2>HTML5</h2>

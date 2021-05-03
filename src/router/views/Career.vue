@@ -100,7 +100,7 @@
                       <!-- end timeline-icon -->
                       <!-- begin timeline-body -->
                       <div class="timeline-body">
-                        ...アパレル生産管理からエンジニア転職
+                        アパレル生産管理からエンジニア転職
                       </div>
                       <!-- begin timeline-body -->
                     </li>
@@ -280,7 +280,8 @@ export default {
       background: #fff;
       position: relative;
       padding: 20px 25px;
-      border-radius: 6px
+      border-radius: 6px;
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
   }
 
   .timeline .timeline-body:before {

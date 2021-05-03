@@ -1,8 +1,8 @@
 <template>
-  <div class="team-boxed">
+  <div id="aboutMyself">
+    <h1>About Myself</h1>
     <div class="container">
-      <div class="people">
-        <div class="col-md-6 col-lg-4 item">
+        <div class="box col-md-6 col-lg-4 item">
           <div class="box">
             <img class="rounded-circle" src="../../assets/demo1.jpg" />
             <h3 class="name">Serina Yamamoto</h3>
@@ -19,7 +19,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -29,39 +28,42 @@ export default {
 </script>
 
 <style scoped>
-.team-boxed {
+  #aboutMyself {
     color:#313437;
     background-color:#eef4f7;
     min-height: 100vh;
+    text-align: center;
   }
 
-  .team-boxed p {
+  h1 {
+    padding: 50px 0;
+  }
+
+  p {
     color:#7d8285;
   }
 
-  .team-boxed .people {
+  .item {
+    display: inline;
     padding:50px 0;
   }
 
-  .team-boxed .item {
-    display: inline;
-  }
-
-  .team-boxed .item .box {
+  .item .box {
     text-align:center;
     padding:30px;
     background-color:#fff;
     margin-bottom:30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .team-boxed .item .name {
+  .item .name {
     font-weight:bold;
     margin-top:28px;
     margin-bottom:8px;
     color:inherit;
   }
 
-  .team-boxed .item .title {
+  .item .title {
     text-transform:uppercase;
     font-weight:bold;
     color:#d0d0d0;
@@ -69,22 +71,22 @@ export default {
     font-size:13px;
   }
 
-  .team-boxed .item .description {
+  .item .description {
     font-size:15px;
     margin-top:15px;
     margin-bottom:20px;
   }
 
-  .team-boxed .item img {
+  .item img {
     max-width:160px;
   }
 
-  .team-boxed .social {
+  .social {
     font-size:18px;
     color:#a2a8ae;
   }
 
-  .team-boxed .social a {
+  .social a {
     color:inherit;
     margin:0 10px;
     display:inline-block;
