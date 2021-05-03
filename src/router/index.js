@@ -5,7 +5,7 @@ import Home from './views/Home.vue'
 import Skills from './views/Skills.vue'
 import Career from './views/Career.vue'
 import Gallery from './views/Gallery.vue'
-import Contact from './views/Contact.vue'
+import AboutMyself from './views/AboutMyself.vue'
 
 
 Vue.use(Router)
@@ -39,9 +39,9 @@ export default new Router({
       component: Gallery
     },
     {
-      path: '/Contact',
-      name: 'Contact',
-      component: Contact
+      path: '/AboutMyself',
+      name: 'AboutMyself',
+      component: AboutMyself
     }
   ]
 })

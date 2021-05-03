@@ -11,7 +11,7 @@
         <li><router-link to="/Skills" class="" exact-active-class="active">Skills</router-link></li>
         <li><router-link to="/Career" class="" exact-active-class="active">Career</router-link></li>
         <li><router-link to="/Gallery" class="" exact-active-class="active">Gallery</router-link></li>
-        <li><router-link to="/Contact" class="" exact-active-class="active">Contact</router-link></li>
+        <li><router-link to="/AboutMyself" class="" exact-active-class="active">About Myself</router-link></li>
       </ul>
     </div>
   </nav>
