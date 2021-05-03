@@ -6,6 +6,9 @@
         <div class="content-left">
           <h2>HTML5</h2>
           <img src="../../assets/html.png">
+          <v-divider
+            vertical
+          ></v-divider>
         </div>
         <div class="content-right">
           <div class="bar bar1">70%</div>
@@ -15,6 +18,9 @@
         <div class="content-left">
           <h2>CSS3</h2>
           <img src="../../assets/css.png">
+          <v-divider
+            vertical
+          ></v-divider>
         </div>
         <div class="content-right">
           <div class="bar bar1">70%</div>
@@ -24,6 +30,9 @@
         <div class="content-left">
           <h2>javascript</h2>
           <img src="../../assets/java-script.png">
+          <v-divider
+            vertical
+          ></v-divider>
         </div>
         <div class="content-right">
           <div class="bar bar1">70%</div>
@@ -33,6 +42,9 @@
         <div class="content-left">
           <h2>Java</h2>
           <img src="../../assets/java.png">
+          <v-divider
+            vertical
+          ></v-divider>
         </div>
         <div class="content-right">
           <div class="bar bar2">80%</div>
@@ -42,6 +54,9 @@
         <div class="content-left">
           <h2>Python</h2>
           <img src="../../assets/python.png">
+          <v-divider
+            vertical
+          ></v-divider>
         </div>
         <div class="content-right">
           <div class="bar bar3">20%</div>
@@ -51,6 +66,9 @@
         <div class="content-left">
           <h2>SQL</h2>
           <img src="../../assets/sql.png">
+          <v-divider
+            vertical
+          ></v-divider>
         </div>
         <div class="content-right">
           <div class="bar bar4">50%</div>
@@ -71,7 +89,7 @@ export default {
   body {
     margin: 20px 0 40px;
     font-family: "Open Sans", sans-serif;
-    color: #282828;
+    color: #65626A;
   }
 
   img {
@@ -109,7 +127,15 @@ export default {
     width: 70%;
   }
 
-  /* 引用2  */
+  /* vuetify */
+  .theme--light.v-divider {
+    border-color: rgba(101, 98, 106, 1);
+  }
+
+  .v-divider--vertical {
+    border-width: 0 0.3rem 0 0;
+  }
+  /* graph  */
   .graph-cont{
     width: calc(100% - 40px);
     width: 100%;
@@ -138,12 +164,12 @@ export default {
     top: 0;
     z-index: -2;
     background: #ecf0f1;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   .bar::after{
     content: '';
-    background: rgba(57, 132, 178, 0.8);
+    background: rgba(130, 199, 242, 1);
     height: 45px;
     transition: 0.7s;
     display: block;
@@ -153,8 +179,8 @@ export default {
     top: 0;
     left: 0;
     z-index: -1;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 
   .bar1::after{
@@ -193,7 +219,6 @@ export default {
     padding: 0;
     margin: 0;
   }
-/* 引用2 end */
 </style>
 
 

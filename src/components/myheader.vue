@@ -20,7 +20,7 @@
 <style scoped>
   a {
    text-decoration: none;
-   color: #4b4b4b;
+   color: #65626A;
   }
 
   ul {
