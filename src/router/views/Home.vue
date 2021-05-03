@@ -30,6 +30,7 @@
     position: absolute;
     top: calc(35% - 0.5em);
     width: 100%;
+    z-index: 1;
   }
 
   .title {
@@ -49,7 +50,8 @@
   }
 
   a {
-    color: #E95F5F;
+    color: #BC4E60;
+    font-weight: bold;
     padding: 1rem 1.5rem;
   }
 
@@ -66,7 +68,7 @@
 }
 
   .btn:hover {
-  color: rgba(233, 95, 95, 1);
+  color: #BC4E60;
   background:rgba(255,255,255,0.8);
 }
 

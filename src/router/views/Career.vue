@@ -17,7 +17,7 @@
                       <!-- begin timeline-time -->
                       <div class="timeline-time">
                         <span class="date">2021</span>
-                        <span class="time">4月〜</span>
+                        <span class="time">1月</span>
                       </div>
                       <!-- end timeline-time -->
                       <!-- begin timeline-icon -->
@@ -29,29 +29,28 @@
                       <div class="timeline-body">
                         <div class="timeline-header">
                           <span class="username"
-                            ><a>sigma international</a> <small></small
+                            ><a>シグマ・インターナショナル</a> <small></small
                           ></span>
                           <span class="pull-right text-muted">current</span>
                         </div>
                         <div class="timeline-content">
                           <p>
-                            契約書管理システムに参画しています。
+                            javaがメインの受託システム開発企業に入社。契約書管理Webシステムに製造から参画。2機能（3ページ）を担当。
                           </p>
                         </div>
 
                         <div class="timeline-footer">
+                          <a class="m-r-15 text-inverse-lighter">
+                            <font-awesome-icon icon="file-code"/> html & css</a>
                           <a class="m-r-15 text-inverse-lighter"
-                            ><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i>
-                            html & css</a
-                          >
-                          <a class="m-r-15 text-inverse-lighter"
-                            ><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> js
+                            ><font-awesome-icon :icon="['fab', 'js-square']"/> js
                             / jQuery</a
                           >
                           <a class="m-r-15 text-inverse-lighter"
-                            ><i class="fa fa-share fa-fw fa-lg m-r-3"></i> java
-                            / spring</a
-                          >
+                            ><font-awesome-icon :icon="['fas', 'sitemap']"/> java
+                            / spring</a>
+                          <a class="m-r-15 text-inverse-lighter"
+                          ><font-awesome-icon :icon="['fas', 'database']"/> oracle</a>
                         </div>
                       </div>
                       <!-- end timeline-body -->
@@ -59,8 +58,8 @@
                     <li>
                       <!-- begin timeline-time -->
                       <div class="timeline-time">
-                        <span class="date">2021</span>
-                        <span class="time">4月〜</span>
+                        <span class="date">2020</span>
+                        <span class="time">2月</span>
                       </div>
                       <!-- end timeline-time -->
                       <!-- begin timeline-icon -->
@@ -72,38 +71,44 @@
                       <div class="timeline-body">
                         <div class="timeline-header">
                           <span class="username"
-                            ><a>sigma international</a> <small></small
+                            ><a>銀河ソフトウェア株式会社</a> <small></small
                           ></span>
-                          <span class="pull-right text-muted">current</span>
                         </div>
                         <div class="timeline-content">
                           <p>
-                            契約書管理システムに参画しています。
+                            SES企業に完全未経験で入社。約2ヶ月間のspringフレームワークを用いた研修を終え、官庁系Webシステム開発に参画。2機能を、詳細設計から担当。
                           </p>
                         </div>
 
                         <div class="timeline-footer">
+                          <a class="m-r-15 text-inverse-lighter">
+                            <font-awesome-icon icon="file-code"/> jsp</a>
                           <a class="m-r-15 text-inverse-lighter"
-                            ><i class="fa fa-thumbs-up fa-fw fa-lg m-r-3"></i>
-                            html & css</a
-                          >
+                            ><font-awesome-icon :icon="['fas', 'sitemap']"/> java
+                            </a>
                           <a class="m-r-15 text-inverse-lighter"
-                            ><i class="fa fa-comments fa-fw fa-lg m-r-3"></i> js
-                            / jQuery</a
-                          >
-                          <a class="m-r-15 text-inverse-lighter"
-                            ><i class="fa fa-share fa-fw fa-lg m-r-3"></i> java
-                            / spring</a
-                          >
+                          ><font-awesome-icon :icon="['fas', 'database']"/> oracle</a>
                         </div>
                       </div>
                       <!-- end timeline-body -->
+                    </li>
+                    <li>
+                      <!-- begin timeline-icon -->
+                      <div class="timeline-icon">
+                        <a href="javascript:;">&nbsp;</a>
+                      </div>
+                      <!-- end timeline-icon -->
+                      <!-- begin timeline-body -->
+                      <div class="timeline-body">
+                        ...アパレル生産管理からエンジニア転職
+                      </div>
+                      <!-- begin timeline-body -->
                     </li>
                     <li>
                       <!-- begin timeline-time -->
                       <div class="timeline-time">
-                        <span class="date">2021</span>
-                        <span class="time">4月〜</span>
+                        <span class="date">2018</span>
+                        <span class="time">4月</span>
                       </div>
                       <!-- end timeline-time -->
                       <!-- begin timeline-icon -->
@@ -115,13 +120,12 @@
                       <div class="timeline-body">
                         <div class="timeline-header">
                           <span class="username"
-                            ><a>sigma international</a> <small></small
+                            ><a>TSI・プロダクション・ネットワーク</a> <small></small
                           ></span>
-                          <span class="pull-right text-muted">current</span>
                         </div>
                         <div class="timeline-content">
                           <p>
-                            契約書管理システムに参画しています。
+                            新卒入社。50日間の研修、百貨店ブランドの生産管理を経て、低価格のレディースブランドの生産管理として、1レディースブランドを担当。業務内容は、納期管理・品質管理、コスト交渉など。社内や社外の人と数多く携わり、進捗の調整を行っていました。マクロを使用したエクセルでの在庫やコスト管理も行うようになり、IT業界やプログラミングに興味を持ち転職を決意。
                           </p>
                         </div>
 
@@ -141,18 +145,6 @@
                         </div>
                       </div>
                       <!-- end timeline-body -->
-                    </li>
-                    <li>
-                      <!-- begin timeline-icon -->
-                      <div class="timeline-icon">
-                        <a href="javascript:;">&nbsp;</a>
-                      </div>
-                      <!-- end timeline-icon -->
-                      <!-- begin timeline-body -->
-                      <div class="timeline-body">
-                        Loading...
-                      </div>
-                      <!-- begin timeline-body -->
                     </li>
                   </ul>
                   <!-- end timeline -->
@@ -176,15 +168,22 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
   #career {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background:#cddeeb;
+    background:#F5F4F6;
+    font-size: 0.9rem;
   }
 
   h1 {
     margin: 50px 0;
+  }
+
+  .text-inverse-lighter {
+    font-size: 1.0rem;
+    margin-right: 1rem;
   }
 
   .career-content {
@@ -267,11 +266,11 @@ export default {
       height: 20px;
       display: inline-block;
       border-radius: 20px;
-      background: #82C7F2;
+      background: #913B58;
       line-height: 10px;
       color: #fff;
       font-size: 14px;
-      border: 5px solid #82C7F2;
+      border: 5px solid #913B58;
       transition: border-color .2s linear
   }
 
@@ -306,7 +305,7 @@ export default {
 
   .timeline-header {
       padding-bottom: 10px;
-      border-bottom: 1px solid #e2e7eb;
+      border-bottom: 1px solid #56ADDC;
       line-height: 30px
   }
 
@@ -352,7 +351,7 @@ export default {
   }
 
   .timeline-footer {
-      background: #3984B2;
+      background: #D897A2;
       margin-left: -25px;
       margin-right: -25px;
       padding: 20px 25px;

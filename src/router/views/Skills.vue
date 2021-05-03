@@ -5,7 +5,7 @@
       <div class="container">
         <div class="content-left">
           <h2>HTML5</h2>
-          <img src="../../assets/html.png">
+          <!-- <img src="../../assets/html.png"> -->
           <v-divider
             vertical
           ></v-divider>
@@ -17,7 +17,7 @@
       <div class="container">
         <div class="content-left">
           <h2>CSS3</h2>
-          <img src="../../assets/css.png">
+          <!-- <img src="../../assets/css.png"> -->
           <v-divider
             vertical
           ></v-divider>
@@ -29,7 +29,7 @@
       <div class="container">
         <div class="content-left">
           <h2>javascript</h2>
-          <img src="../../assets/java-script.png">
+          <!-- <img src="../../assets/java-script.png"> -->
           <v-divider
             vertical
           ></v-divider>
@@ -41,7 +41,7 @@
       <div class="container">
         <div class="content-left">
           <h2>Java</h2>
-          <img src="../../assets/java.png">
+          <!-- <img src="../../assets/java.png"> -->
           <v-divider
             vertical
           ></v-divider>
@@ -53,7 +53,7 @@
       <div class="container">
         <div class="content-left">
           <h2>Python</h2>
-          <img src="../../assets/python.png">
+          <!-- <img src="../../assets/python.png"> -->
           <v-divider
             vertical
           ></v-divider>
@@ -65,7 +65,7 @@
       <div class="container">
         <div class="content-left">
           <h2>SQL</h2>
-          <img src="../../assets/sql.png">
+          <!-- <img src="../../assets/sql.png"> -->
           <v-divider
             vertical
           ></v-divider>
@@ -86,15 +86,10 @@ export default {
 
 <style scoped>
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-  body {
-    margin: 20px 0 40px;
-    font-family: "Open Sans", sans-serif;
-    color: #65626A;
-  }
 
   img {
     height: 4.5rem;
-    margin: 0 2rem;
+    margin: .2rem;
   }
 
   h1 {
@@ -134,6 +129,7 @@ export default {
 
   .v-divider--vertical {
     border-width: 0 0.3rem 0 0;
+    margin: -1px;
   }
   /* graph  */
   .graph-cont{
@@ -151,7 +147,7 @@ export default {
     max-width: 80.0rem;
     line-height: 3.0rem;
     font-size: 1.2rem;
-    color: white;
+    color: #fff;
     padding: 0 0 0 15px;
     position: relative;
   }
@@ -169,7 +165,7 @@ export default {
   }
   .bar::after{
     content: '';
-    background: rgba(130, 199, 242, 1);
+    background: #BCDFF2;
     height: 45px;
     transition: 0.7s;
     display: block;
