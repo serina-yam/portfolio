@@ -4,7 +4,7 @@
     <div class="container">
         <div class="box col-md-6 col-lg-4 item">
           <div class="box">
-            <img class="rounded-circle" src="../../assets/demo1.jpg" />
+            <img class="rounded-circle" src="../../assets/demo2.png" />
             <h3 class="name">Serina Yamamoto</h3>
             <p class="title">back-end engeneer</p>
             <p class="description">

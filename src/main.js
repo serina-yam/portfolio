@@ -6,6 +6,7 @@ Vue.use(router)
 
 import vuetify from './plugins/vuetify'
 
+//アイコン設定
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faJsSquare } from "@fortawesome/free-brands-svg-icons"
 import { faFileCode, faDatabase, faSitemap } from '@fortawesome/free-solid-svg-icons'
