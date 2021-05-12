@@ -5,7 +5,7 @@
         <div class="box col-md-6 col-lg-4 item">
           <div class="box">
             <img class="rounded-circle" src="../../assets/demo2.png" />
-            <h3 class="name">Serina Yamamoto</h3>
+            <h3 class="name"><label style="color:#913B58;"> S</label>erina  <label style="color:#913B58;">Y</label>amamoto</h3>
             <p class="title">back-end engeneer</p>
             <p class="description">
               デザイン面にも興味があり、様々な方向から考えられるスキルを持ったエンジニアを目指しています。<br>今回のポートフォリオは、jsのVue CLIで作成しました。実際に制作物を１つ作り上げたことでVue.jsへの理解が深まりました。<br>また、普段業務では意識しないデザイン面を考慮しながら完成させることができました。
@@ -30,7 +30,7 @@ export default {
 <style scoped>
   #aboutMyself {
     color:#313437;
-    background-color:#eef4f7;
+    background-color:#F5F4F6;
     min-height: 100vh;
     text-align: center;
   }

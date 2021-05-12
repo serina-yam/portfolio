@@ -5,7 +5,7 @@
         <h1>SERINA YAMAMOTO</h1>
         <h2>back-end engineer</h2>
       </div>
-      <a href="" class="btn">CHECK MY WORK</a>
+      <a href="Gallery" class="btn">CHECK MY WORK</a>
       <a id="tap">
         <img src="../../assets/tap.png">
       </a>
