@@ -17,7 +17,7 @@
                       <!-- begin timeline-time -->
                       <div class="timeline-time">
                         <span class="date">2021</span>
-                        <span class="time">1月</span>
+                        <span class="time">7月</span>
                       </div>
                       <!-- end timeline-time -->
                       <!-- begin timeline-icon -->
@@ -35,7 +35,45 @@
                         </div>
                         <div class="timeline-content">
                           <p>
-                            javaがメインの受託システム開発企業に入社。契約書管理Webシステムに製造から参画。2機能（3ページ）を担当。
+                            新聞社様のパッケージ開発にUI設計工程から参画。モック作成の際に、ツールを提案しfigmaを使って作成。
+                          </p>
+                        </div>
+
+                        <div class="timeline-footer">
+                          <a class="m-r-15 text-inverse-lighter">
+                            <font-awesome-icon icon="file-code"/> React</a>
+                          <a class="m-r-15 text-inverse-lighter"
+                            ><font-awesome-icon :icon="['fas', 'sitemap']"/> AWS
+                          </a>
+                          <a class="m-r-15 text-inverse-lighter"
+                          ><font-awesome-icon :icon="['fas', 'database']"/> Elasticsearch</a>
+                        </div>
+                      </div>
+                      <!-- end timeline-body -->
+                    </li>
+                    <li>
+                      <!-- begin timeline-time -->
+                      <div class="timeline-time">
+                        <span class="date">2021</span>
+                        <span class="time">1月</span>
+                      </div>
+                      <!-- end timeline-time -->
+                      <!-- begin timeline-icon -->
+                      <div class="timeline-icon">
+                        <a href="javascript:;">&nbsp;</a>
+                      </div>
+                      <!-- end timeline-icon -->
+                      <!-- begin timeline-body -->
+                      <div class="timeline-body">
+                        <div class="timeline-header">
+                          <span class="username"
+                            ><a>シグマ・インターナショナル</a> <small></small
+                          ></span>
+                          <span class="pull-right text-muted"></span>
+                        </div>
+                        <div class="timeline-content">
+                          <p>
+                            javaがメインの受託システム開発企業に入社。契約書管理Webシステムに製造から参画。2機能（3ページ）を担当。<br>データ移行の際には、teratermマクロを作成して大量PDFデータの移行を担当。
                           </p>
                         </div>
 
