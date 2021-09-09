@@ -15,7 +15,7 @@ library.add(faJsSquare, faFileCode, faDatabase, faSitemap)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = true; // 開発中は true にしたほうがいいかも
-// true の場合の方が開発者向けのメッセージがコンソールによりたくさん出るようです。
+// true の場合の方が開発者向けのメッセージがコンソールによりたくさん出るよう
 
 new Vue({
   el: '#app',
