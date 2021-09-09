@@ -1,24 +1,9 @@
 # portfolio
 
-## Project setup
-```
-npm install
-```
+## 作成理由
+Vue.jsの勉強用に作成
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+その途中でReactの案件に携わり、Reactの方が書けるようになったため
+Reactでポートフォリオ作り直し中です。
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
